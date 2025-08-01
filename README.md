@@ -1,13 +1,27 @@
-  # Projeto Mecatrônico
+# Mechatronics Project
 
-O projeto mecatrônico da INSPER envolve a criação de uma máquina pipetadora automática destinada a laboratórios, com o intuito de otimizar e tornar mais preciso o processo de pipetagem. A equipe responsável pelo projeto abordou as áreas de Mecânica, Eletrônica e Software para desenvolver um protótipo funcional que atendesse aos requisitos estabelecidos.
+The Mechatronics project at INSPER involves the creation of an **automatic pipetting machine** designed for laboratory use, aiming to optimize and increase the precision of the pipetting process. The team responsible for the project addressed the areas of **Mechanics**, **Electronics**, and **Software** to develop a functional prototype that meets the established requirements.
 
-Na parte mecânica do projeto, foram realizados cálculos detalhados para o dimensionamento de componentes essenciais, como o fuso de esferas e mancais, guia linear e carro. Esses cálculos foram fundamentais para garantir a correta seleção e integração dos componentes mecânicos, visando a eficiência e durabilidade da máquina pipetadora.
+### 🔩 Mechanical Aspect
 
-No âmbito eletrônico, o projeto contou com a utilização de diversos elementos, como a placa núcleo com o microcontrolador STM32F103RB, responsável por enviar sinais e alimentar componentes, o debouncing para estabilização de chaves mecânicas, o step-down para conversão de tensão, além dos acionamentos da pipeta e dos motores nos eixos X, Y e Z. Esses componentes eletrônicos foram integrados de forma a garantir o correto funcionamento e controle da máquina.
+In the mechanical part of the project, detailed calculations were carried out for sizing essential components such as the **ball screw and bearings**, **linear guide**, and **carriage**. These calculations were fundamental to ensure the correct selection and integration of mechanical components, aiming for the machine's efficiency and durability.
 
-O desenvolvimento do software do projeto foi baseado em fluxogramas detalhados, que descrevem as operações e funcionalidades da máquina pipetadora. A programação do software foi realizada de acordo com esses fluxogramas, visando a automação e precisão das tarefas executadas pela máquina.
+### ⚡ Electronic System
 
-O processo de desenvolvimento do protótipo funcional seguiu as etapas convencionais do processo de desenvolvimento de produto (PDP), envolvendo desde o dimensionamento mecânico e fabricação de peças até o desenvolvimento do projeto eletro-eletrônico, programação de software e implementação da interface homem-máquina.
+On the electronics side, the project included various components such as:
 
-Em suma, o projeto mecatrônico da INSPER representa um esforço integrado para criar uma máquina pipetadora automática de alta precisão e eficiência, combinando conhecimentos de Mecânica, Eletrônica e Software para atender às demandas de automação no ambiente laboratorial.
+* A **core board** with the **STM32F103RB microcontroller**, responsible for sending signals and powering components
+* **Debouncing** for stabilizing mechanical switches
+* A **step-down converter** for voltage regulation
+* Actuation systems for the **pipette** and the **X, Y, and Z axis motors**
+
+These electronic components were integrated to ensure proper operation and control of the machine.
+
+### 💻 Software Development (C++)
+
+The software was developed in **C++**, based on detailed **flowcharts** outlining the machine’s operations and functionalities. The programming followed these flowcharts to automate and enhance the accuracy of the tasks performed by the pipetting machine. The choice of C++ allowed for efficient control over hardware and real-time system performance.
+
+### 🛠️ Product Development Process
+
+The prototype development followed the conventional **Product Development Process (PDP)**, which included mechanical sizing and part fabrication, electro-electronic design, software programming, and the implementation of a **human-machine interface (HMI)**.
+
